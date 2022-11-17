@@ -18,3 +18,4 @@
   - [Listas Desordenadas](/Fundamentos-de-la-Web/HTML/Listas_y_Tablas/listasDesordenadas.html)
   - [Listas Ordenadas](/Fundamentos-de-la-Web/HTML/Listas_y_Tablas/listasOrdenadas.html)
   - [Tablas](/Fundamentos-de-la-Web/HTML/Listas_y_Tablas/tablas.html)
+  - [Imagenes y Videos](/Fundamentos-de-la-Web/HTML/Imagenes_y_Videos/imagenes.html)
