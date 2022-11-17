@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ninja</title>
+</head>
+<body>
+	<div id="background">
+		<div id="character"
+				 style=" position: absolute;
+								 top: 400px;
+								 left: 800px;
+								 width: 60px;
+								 height: 85px;
+								 background-image: url('img/down1.png');">
+		</div>
+	</div>
+	<script>
+		document.onkeydown = 
+			function ( evento ) {
+				switch ( evento.key ) {
+					case 'ArrowUp':
+						console.log("Arriba");
+						break;
+					case 'ArrowDown':
+						console.log("Abajo");
+						break;
+					case 'ArrowRight':
+						console.log("Derecha");
+						break;
+					case 'ArrowLeft':
+						console.log("Izquierda");
+						break;
+					default:
+						console.log(evento.key);
+						break;
+				}
+			};
+</script>
+</body>
+</html>
