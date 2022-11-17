@@ -13,5 +13,7 @@
 
 ## Fundamentos de la Web
 
-- [Introducción a HTML](/Fundamentos-de-la-Web/Introduccion_a_HTML/)
+- [Introducción a HTML](/Fundamentos-de-la-Web/HTML/Introduccion_a_HTML/)
   - [Hola Mundo](/Fundamentos-de-la-Web/HTML/Introduccion_a_HTML/hola_mundo.html)
+  - [Listas Desordenadas](/Fundamentos-de-la-Web/HTML/Listas_y_Tablas/listasDesordenadas.html)
+  - [Listas Ordenadas](/Fundamentos-de-la-Web/HTML/Listas_y_Tablas/listasOrdenadas.html)
