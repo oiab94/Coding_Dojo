@@ -3,8 +3,6 @@
 - [Pre-Bootcamp](#pre-bootcamp)
 - [Fundamentos de la Web](#fundamentos-de-la-web)
 
-<h1> Contenido </h1>
-
 ## Pre-Bootcamp
 
 - [Intro to Programming](/Pre-Bootcamp/Intro%20to%20Programming/)
@@ -24,3 +22,7 @@
   - [Formularios](/Fundamentos-de-la-Web/HTML/Formularios/formulario.html)
     - [Tarea 3: Formulario de registro](/Fundamentos-de-la-Web/HTML/Formularios/formularioDeRegistro.html)
     - [Tarea 4: Contenido de portfolio](/Fundamentos-de-la-Web/HTML/portfolio_personal/portfolio.html)
+
+- ### Introducción CSS
+  
+  - [Configuración del proyecto](/Fundamentos-de-la-Web/CSS/configurarProyecto/index.html)
