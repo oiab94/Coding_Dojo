@@ -21,3 +21,5 @@
   - [Imagenes y Videos](/Fundamentos-de-la-Web/HTML/Imagenes_y_Videos/imagenes.html)
     - [Tarea 1: Entrada de diccionario](/Fundamentos-de-la-Web/HTML/dictionary_entry/index.html)
     - [Tarea 2: Corregir Sangrias](/Fundamentos-de-la-Web/HTML/corregir_sangrias/index.html)
+  - [Formularios](/Fundamentos-de-la-Web/HTML/Formularios/formulario.html)
+    - [Tarea 3: Formulario de registro](/Fundamentos-de-la-Web/HTML/Formularios/formularioDeRegistro.html)
