@@ -1,0 +1,27 @@
+/* Selecciona todos los elementos del documento 
+	 Peso -> 0.1
+*/
+* {
+	color: yellow;
+}
+
+/* Selecciona solo el elemento h1 
+	 Peso -> 1
+*/
+h1 {
+	color: blue;
+}
+
+/* Selecctor clase
+	Peso -> 10
+*/
+.green{
+	color: green;
+}
+
+/* Selector id 
+	Peso -> 100
+*/
+#red{
+	color: red;
+}
