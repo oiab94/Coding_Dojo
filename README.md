@@ -26,4 +26,5 @@
 - ### Introducción CSS
   
   - [Configuración del proyecto](/Fundamentos-de-la-Web/CSS/configurarProyecto/index.html)
-  - [Selectore comodin](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorComodin/index.html)
+  - [Selectores comodin](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorComodin/index.html)
+  - [Selectores especificidad](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorEspecifidad/index.html)
