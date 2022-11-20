@@ -23,3 +23,4 @@
     - [Tarea 2: Corregir Sangrias](/Fundamentos-de-la-Web/HTML/corregir_sangrias/index.html)
   - [Formularios](/Fundamentos-de-la-Web/HTML/Formularios/formulario.html)
     - [Tarea 3: Formulario de registro](/Fundamentos-de-la-Web/HTML/Formularios/formularioDeRegistro.html)
+    - [Tarea 4: Contenido de portfolio](/Fundamentos-de-la-Web/HTML/portfolio_personal/portfolio.html)
