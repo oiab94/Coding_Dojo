@@ -29,3 +29,4 @@
   - [Selectores comodin](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorComodin/index.html)
   - [Selectores especificidad](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorEspecifidad/index.html)
   - [Selectores descendentes](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDescendente/index.html)
+  - [Selector descendiente directo](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDescendienteDirecto/index.html)
