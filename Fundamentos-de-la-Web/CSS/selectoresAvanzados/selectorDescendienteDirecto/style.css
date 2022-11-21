@@ -1,0 +1,8 @@
+/* La combinación solo afecta a los hijos, no a los nietos */
+.header > img{
+		height: 50px;
+}
+
+a > img{
+	height: 30px;
+}
