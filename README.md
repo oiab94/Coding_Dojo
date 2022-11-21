@@ -30,3 +30,4 @@
   - [Selectores especificidad](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorEspecifidad/index.html)
   - [Selectores descendentes](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDescendente/index.html)
   - [Selector descendiente directo](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDescendienteDirecto/index.html)
+  - [Selector de atributo](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDeAtributo/index.html)
