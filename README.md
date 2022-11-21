@@ -31,3 +31,4 @@
   - [Selectores descendentes](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDescendente/index.html)
   - [Selector descendiente directo](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDescendienteDirecto/index.html)
   - [Selector de atributo](/Fundamentos-de-la-Web/CSS/selectoresAvanzados/selectorDeAtributo/index.html)
+    - [Tarea 5: Estilo de texto](/Fundamentos-de-la-Web/CSS/estiloDeTexto/index.html)
