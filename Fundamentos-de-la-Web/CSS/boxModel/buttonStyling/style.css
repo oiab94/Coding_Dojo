@@ -1,0 +1,52 @@
+.container{
+	margin: 50px;
+}
+
+.spaceBetween{
+	margin-bottom: 20px;
+}
+
+.buttonSearch{
+	color						: #00cccc;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	text-decoration	: none;
+	border					: 2px solid #00cccc;
+	border-radius		: 30px;
+	padding					: 5px 50px;
+}
+.buttonSearch:hover{
+	color						: white;
+	background-color: #00cccc;
+}
+
+.buttonAdd{
+	width						: max-content;
+	color						: #ffffff;
+	background-color: #00cccc;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	padding					: 5px;
+	border					: 2px solid #00cccc;
+	border-radius		: 50%;
+	font-size				: x-large;
+}
+.buttonAdd:hover{
+	color						: #00cccc;
+	background-color: #ffffff;
+}
+
+.createAccount{
+	color						: #ffffff;
+	background-color: #0099ff;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	text-decoration	: none;
+	padding					: 5px 50px;
+	border					: 2px solid #000000;
+	box-shadow			: 5px 5px #000000;
+}
+.createAccount:hover{
+	color						: #0099ff;
+	background-color: #ffffff;
+}
