@@ -35,3 +35,4 @@
     - [Tarea 6: Button](/Fundamentos-de-la-Web/CSS/boxModel/buttonStyling/index.html)
     - [Tarea 7: Trazando nuestros bloques](/Fundamentos-de-la-Web/CSS/boxModel/trazandoNuestrosBloques/index.html)
   - [Espacio fantasma al usar inline block](/Fundamentos-de-la-Web/CSS/displayProperty/laVentanaFlex/index.html)
+  - [Eliminación de espacio fantasma](/Fundamentos-de-la-Web/CSS/displayProperty/laVentanaFlex/index.html)
