@@ -34,3 +34,4 @@
     - [Tarea 5: Estilo de texto](/Fundamentos-de-la-Web/CSS/estiloDeTexto/index.html)
     - [Tarea 6: Button](/Fundamentos-de-la-Web/CSS/boxModel/buttonStyling/index.html)
     - [Tarea 7: Trazando nuestros bloques](/Fundamentos-de-la-Web/CSS/boxModel/trazandoNuestrosBloques/index.html)
+  - [Espacio fantasma al usar inline block](/Fundamentos-de-la-Web/CSS/displayProperty/laVentanaFlex/index.html)
