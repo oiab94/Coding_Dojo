@@ -1,0 +1,71 @@
+/* Contenedor Principal */
+.contenedor{
+	background-color: #cccccc;
+	width						: 600px;
+	height					: 480px ;
+	display					: inline-block;
+	padding-top			: 20px ;
+	padding-right		: 20px;
+	padding-left		: 20px;
+}
+
+/* Caja Verde */
+.cajaVerde{
+	background-color: #006600;
+	width						: 600px;
+	height					: 110px;
+}
+
+/* Segundo contenedor */
+.contenedor2{
+	width						: 600px;
+	height					: 310px;
+	display					: flex;
+}
+
+/* Caja Azul */
+.cajaAzul{
+	background-color: #0000ff;
+	width						: 145px;
+	height					: 233px;
+	margin					: 20px;
+	margin-left			: 0px;
+}
+
+/* Contenedor de las Cajas Amarillas */
+
+.contenedorRojo{
+	background-color: #ff0000;
+	width						: 435px;
+	height					: 330px;
+	margin-top			: 20px;
+	margin-bottom		: 20px;
+	display					: flex;
+	flex-direction	: column;
+}
+
+.contenedorCajasAmarillas{
+	width						: 395px;
+	margin-top			: 10px;
+	margin-left			: 10px;
+	margin-right		: 10px;
+	height					: 110px;
+	display					: flex;
+}
+
+.cajaAmarilla{
+	background-color: #ffff00;
+	width						: 120px;
+	margin-right		: 10px;
+	max-height			: max-content;
+}
+
+/* Caja Purpura */
+
+.cajaPurpura{
+	background-color: #800080;
+	width						: 380px;
+	margin-top			: 20px;
+	margin-left			: 10px;
+	height					: 35%;
+}
