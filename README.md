@@ -37,3 +37,4 @@
   - [Espacio fantasma al usar inline block](/Fundamentos-de-la-Web/CSS/displayProperty/laVentanaFlex/index.html)
   - [Eliminación de espacio fantasma](/Fundamentos-de-la-Web/CSS/displayProperty/laVentanaFlex/index.html)
     - [Tarea 9: Flexionar nuestros bloques](/Fundamentos-de-la-Web/CSS/displayProperty/flexionarNuestrosBloques/index.html)
+  - [Justifica los contenidos en contenedor Flex](/Fundamentos-de-la-Web/CSS/displayProperty/justificarContenido/index.html)
