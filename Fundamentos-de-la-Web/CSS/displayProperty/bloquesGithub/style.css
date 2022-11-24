@@ -1,0 +1,33 @@
+#contenedorPrincipal{
+	background-color: #bfbfbf;
+	border					: 2px solid black;
+	width						: 800px;
+	padding					: 20px;
+}
+
+/* Configuración de Header */
+header{
+	display					: flex;
+	justify-content	: center;
+	font-family			: 'Courier New', Courier, monospace;
+}
+
+/* Configuración de elementos dentro del main */
+#contenedor{
+	height	: auto;
+	padding	: 20px;
+	width		: auto;
+	display	: flex;
+}
+
+img{
+	width: 200px;
+}
+
+.marginRight{
+	margin-right: 60px;
+}
+
+.marginTop{
+	margin-top: 20px;
+}
