@@ -1,0 +1,10 @@
+.row{
+	border: 2px solid black;
+	display: flex;
+}
+
+.col{
+	background-color: cornflowerblue;
+	border: 2px solid red;
+	flex: 1;
+}
