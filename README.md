@@ -41,3 +41,4 @@
     - [Tarea 10: Bloques de Github](/Fundamentos-de-la-Web/CSS/displayProperty/bloquesGithub/)
     - [Tarea 11: Barra de navegación con Flex](/Fundamentos-de-la-Web/CSS/displayProperty/barraDeNavegacionConFlex/)
   - [Propiedad Flex](/Fundamentos-de-la-Web/CSS/displayProperty/serFlexibles/)
+    - [Tarea 12: Columnas Flexibles](/Fundamentos-de-la-Web/CSS/displayProperty/columnasFlexibles/)
