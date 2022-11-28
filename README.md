@@ -44,3 +44,4 @@
     - [Tarea 12: Columnas Flexibles](/Fundamentos-de-la-Web/CSS/displayProperty/columnasFlexibles/)
   - [Conceptos básicos position](/Fundamentos-de-la-Web/CSS/Position/conceptosBasicosPosition/)
   - [Prueba de concepto position](/Fundamentos-de-la-Web/CSS/Position/pruebaElementosPosition/)
+    - [Tarea 13: Tarjeta de Usuario](/Fundamentos-de-la-Web/CSS/Position/tarjetaDeUsuario/)
