@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Prueba de elementos Position</title>
+</head>
+<body>
+
+	<h1>Propiedades de position</h1>
+
+	<h2>position: <span>static</span></h2>
+	<p>Los elementos en HTML son posicionados por defecto en static. 
+		 Las propiedades posicionadas con static no son afectados por las propiedades top, bottom, left, right. 
+	</p>
+	<div id="contenedor">
+		<div class="caja static">
+			Este es un div con posicion static.
+		</div>
+	</div>
+
+	<h2>position: <span>relative</span></h2>
+	<p>Una posicion relative es posicionado relativamente con referencia a su posicion normal. Utilizando las propiedades left, right, bottom, top ajustara la posición del elemento con respecto a su posición normal.
+	</p>
+	<div id="contenedor">
+		<div class="caja relative">
+			Este es un div con posicion relative
+		</div>
+	</div>
+
+	<h2>position: <span>fixed</span></h2>
+	<p>Una posición fixed se encuentra posicionada con respecto a la vista, lo que indica que siempre se encuetra ubicada en la misma posición sin importar si la pagina es movida con el scroll. Las propiedades top, bottom, right, left son utilizadas para posicionar el elemento.
+	</p>
+	<div id="contenedor">
+		<div class="caja fixed">
+			Este es un div con posicion fixed
+		</div>
+	</div>
+
+	<h2>position: <span>absolute</span></h2>
+	<p>Una posición absolute es posicionada en una posición más cercana a su ancestro (similar a fixed que se posiciona con respecto a la vista). El contenedor padre debe estar configurado como relative por que, el la posición absolute buscara el elemento ancestro más cercano con posición relative normalmente, suele ser el elemento body.
+	</p>
+	<div id="contenedor" style="position: relative;">
+		<p>Este elemento se encuentra con posición relative.</p>
+		<div class="caja absolute">
+			Este es un div con posicion absolute
+		</div>
+	</div>	 
+
+</body>
+</html>

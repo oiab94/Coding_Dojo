@@ -1,0 +1,52 @@
+* {
+	margin	: 10px;
+	padding	: 0px;
+}
+
+body{
+	border: 2px solid black;
+}
+
+h1{
+	width	: fit-content;
+	margin: auto;
+}
+
+span{
+	color: blue;
+}
+
+/* Configuración del contenedor */
+#contenedor {
+	background-color: #a9a9a9;
+	height					: 100px;
+	border					: 2px solid black;
+}
+
+/* Propiedades position */
+.caja{
+	border: 3px solid #008000;
+	width: fit-content;
+}
+
+.static {
+	position: static;	
+}
+
+.relative {
+	position: relative;
+	left		: 50px;
+	top			: 25px;
+}
+
+.fixed {
+	position: fixed;
+	right		: 20px;
+	bottom	: 20px;
+}
+
+.absolute {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
