@@ -1,0 +1,71 @@
+/* CSS reset */
+* {
+	margin		: 0;
+	padding		: 0;
+	box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se autocentrara a si misma */
+.container {
+	width	: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+/* Clase button */
+.btn{
+	color						: #00cccc;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	text-decoration	: none;
+	border					: 2px solid #00cccc;
+	border-radius		: 30px;
+	padding					: 5px 50px;
+}
+.btn:hover{
+	color						: white;
+	background-color: #00cccc;
+}
+
+/* Columnas Flexibles */
+.row{
+	display: flex;
+}
+
+.col{
+	background-color: #008b8b;
+	flex						: 1;
+	padding					: 10px;
+	margin					: 10px;
+}
+
+/* Configuración de la barra de navegación */
+.navbar{
+	display					: flex;
+	justify-content	: space-between;
+	color						: white;
+	background-color: #333333;
+	font-family			: 'Roboto', sans-serif;
+	padding-left		: 20px;
+	padding-right		: 20px ;
+}
+
+/* Configuración de los links de navegación  */
+.nav-links{
+	list-style-type	: none;
+	display					: flex;
+	justify-content	: space-around;
+}
+li{
+	padding: 5px;
+}
+li a{
+	color						: #ffffff;
+	text-decoration	: none;
+	border					: 1px solid white;
+	padding					: 10px 16px;
+	display					: block;
+}
+li a:hover{
+	background-color: #00ffff;
+}
