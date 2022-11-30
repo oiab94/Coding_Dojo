@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+	<title>Profile</title>
+</head>
+<body>
+	
+	<nav>
+		<div class="navegacionDePerfil">
+			<div class="profile">Profile</div>
+			<div class="home">Home</div>
+			<div class="myProfile">My Profile</div>
+			<div class="findConnections">Find Connections</div>
+		</div>
+		<div class="salida">
+			<div class="botonSalir">Sign Out</div>
+		</div>
+	</nav>
+
+	<div class="cuerpo">
+		<div class="lateralIzq"></div>
+
+		<!-- Aqui arranca todos los elementos del CONTENIDO PRINCIPAL -->
+		<section class="contenidoPrincipal">
+			<article class="tarjetaUsuario">
+				<div class="cabeceraPerfil"></div>
+				<img src="img/images/adrien-s.jpg" 
+						 alt="foto de perfil"
+						 class="imgPerfil">
+				<div class="datosPerfil">					
+					<p class="nombre">Jane Doe</p>
+					<p><img src="img/icons/map-marker.png" 
+									alt="marcador mapa"
+									class="imgMapa"> Seattle</p>
+					<p>Developer | Engineer | Problem Solver</p>
+					<p>Master of shadows and the Internet</p><br>
+					<a href="#">
+						<img src="img/icons/gear.png" 
+								 alt="tuerca"
+								 class="imgTuerca">edit profile</a>
+				</div>
+			</article>
+			<article class="tarjetaEducacion">
+				<div class="cabeceraEducacion">
+					<h3>Educacion</h3>
+				</div>
+				<div class="datosEducacion">
+					<h2>Coding Dojo - Fullstack Bootcamp</h2>
+					<h3 style="font-weight: 100;">Dec 2019 - Mar 2020</h3>
+					<p>Triple black belt in Python, MERN, and C#</p>
+				</div>
+			</article>
+		</section>
+
+		<!-- Aqui arranca todos los elementos del CONTENIDO SECUNDARIO -->
+		<aside class="contenidoSecundario">
+			<article class="tarjetaConnectionRequest">
+				<div class="cabeceraConnectionRequest">
+					<p class="cantidadConnectionRequest">2</p>
+					<h3>Connection Request</h3>
+				</div>
+				<div class="datosConnectionRequest">
+					<p style="display: flex; align-items: center; 
+														 font-size: large; font-weight: 900; 
+														 margin-bottom: 10px;">
+						<img src="img/icons/user-circle.png" alt="user" 
+								 class="imgUser">
+						Todd E
+						<img src="img/icons/accept-circle.png" alt="aceptar" 
+								 class="imgAceptar">
+						<img src="img/icons/close-circle.png" alt="botonClose"
+								 class="imgClose"></p>
+					<p style="display: flex; align-items: center; 
+														 font-size: large; font-weight: 900;">
+						<img src="img/icons/user-circle.png" alt="user" 
+								 class="imgUser">
+						Phil k
+						<img src="img/icons/accept-circle.png" alt="aceptar" 
+								 class="imgAceptar">
+						<img src="img/icons/close-circle.png" alt="botonClose"
+								 class="imgClose"></p>
+				</div>
+			</article>
+			<article class="tarjetaYourConnections">
+				<div class="cabeceraYourConnections">
+					<p class="cantidadYourConnections">500+</p>
+					<h3>Connection Request</h3>
+				</div>
+				<div class="datosYourConnection">
+					<p style="display: flex; align-items: center; 
+										font-size: large; font-weight: 900; 
+										margin-bottom: 10px;">
+						<img src="img/icons/user-circle.png" alt="user" 
+								 class="imgUser">Adrien D</p>
+					<p style="display: flex; align-items: center; 
+								 		font-size: large; font-weight: 900; 
+										margin-bottom: 10px;">
+						<img src="img/icons/user-circle.png" alt="user" 
+		 						 class="imgUser">Anne J</p>
+					<p style="display: flex; align-items: center; 
+										font-size: large; font-weight: 900;
+										margin-bottom: 10px;">
+ 						<img src="img/icons/user-circle.png" alt="user" 
+								 class="imgUser">Alayne T</p>
+					<p style="display: flex; align-items: center; 
+								 		font-size: large; font-weight: 900;
+										margin-bottom: 10px;">
+						<img src="img/icons/user-circle.png" alt="user" 
+		 						 class="imgUser">Arry Y</p>
+					<p><a href="#">View More</a></p>
+				</div>
+			</article>
+		</aside>
+		<div class="lateralDer"></div>
+	</div>
+</body>
+</html>
