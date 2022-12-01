@@ -47,3 +47,4 @@
     - [Tarea 13: Tarjeta de Usuario](/Fundamentos-de-la-Web/CSS/Position/tarjetaDeUsuario/)
     - [Tarea 14: Perfil de Usuario](/Fundamentos-de-la-Web/CSS/Position/paginaDePerfil/)
     - [Tarea 15: Biblioteca CSS](/Fundamentos-de-la-Web/CSS/bibliotecaCSS/)
+  - [Prueba de elementos JS](/Fundamentos-de-la-Web/JS/elementoThis/)
