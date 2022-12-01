@@ -1,0 +1,111 @@
+* {
+	margin		: 20px;
+	margin-top: 0px;
+	padding		: 0px;
+}
+
+/* Configuración de la barra de naveagación */
+nav{
+	background-color: #8c8c8c;
+	display					: flex;
+	justify-content	: space-between;
+	align-items			: center;
+	padding					: 20px;
+}
+
+/* Configuración de logo */
+.logo{
+	margin-bottom	: 0;
+	font-size			: xx-large;
+	font-weight		: bold;
+}
+/* Configuración barra de busqueda */
+.busqueda{
+	margin-bottom: 0px;
+}
+.busqueda input{
+	margin-bottom: 0;
+	border: 2px solid black;
+	padding: 10px;
+	width: 500px;
+}
+/* Configuración del boton login */
+.login{
+	margin-bottom: 0;
+}
+.buttonLogin{
+	margin-bottom		: 0;
+	color						: #ffffff;
+	background-color: #0099ff;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	text-decoration	: none;
+	padding					: 5px 50px;
+	border					: 2px solid #000000;
+	box-shadow			: 5px 5px #000000;
+}
+.buttonLogin:hover{
+	color						: #0099ff;
+	background-color: #ffffff;
+}
+
+
+/* Clase contendor */
+.contenedor{
+	display: flex;
+}
+
+
+/* Clase de la columna izquierda */
+.columnaIzq{
+	display				: flex;
+	flex-direction: column;
+	flex: 2;
+}
+.tarjeta {
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+}
+.buttonLike{
+	margin-bottom		: 0;
+	color						: #000000;
+	background-color: #ffff80;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	text-decoration	: none;
+	padding					: 5px 50px;
+	border					: 2px solid #000000;
+	box-shadow			: 5px 5px #000000;
+}
+.buttonLike:hover{
+	color						: #000000;
+	background-color: #ffffff;
+}
+
+
+/* Aqui arranca la configuración de la columna derecha */
+.columnaDer{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	height: max-content;
+	align-items: center;
+	justify-content: center;
+}
+.buttonAddDefinition{
+	margin-bottom		: 20px;
+	color						: #000000;
+	background-color: #ffff80;
+	font-family			: 'Courier New', monospace;
+	font-weight			: bold;
+	text-decoration	: none;
+	padding					: 5px 50px;
+	border					: 2px solid #000000;
+	box-shadow			: 5px 5px #000000;
+}
+.buttonAddDefintion:hover{
+	color						: #0099ff;
+	background-color: #ffffff;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<title>Evento Onclick</title>
+</head>
+<body>
+	
+	<nav>
+		<div class="logo">
+			<span>Dojonary</span>
+		</div>
+		<div class="busqueda">
+			<input type="text" name="barraBusqueda" 
+						 id="search" placeholder="Search">
+		</div>
+		<div class="login">
+			<a href="#" class="buttonLogin" 
+				 onclick="buttonLogin(this)">Login</a>
+		</div>
+	</nav>
+
+	<main>
+		<div class="contenedor">
+			<!-- Aqui arranca el contenedor del texto lado izquierdo -->
+			<div class="columnaIzq">
+				<div class="tarjeta">
+					<div class="textoIzq">
+						<h2>ninja</h2>
+						<h4>noun</h4>
+						<h4>Plural: ninjas</h4>
+						<a href="#" class="buttonLike" onclick="buttonLike(this)">13 likes</a>
+					</div>
+					<div clas="textoDer">
+						<p style="font-weight: bold;">A practitioner skilled in the 
+							<u style="margin: 0; color: #0000ff;">Japanese</u> art of 
+							<u style="margin: 0; color: #0000ff;">ninjutsu</u></p>					</div>
+				</div>
+				<div class="tarjeta">
+					<div class="textoIzq">
+						<h2>ninja</h2>
+						<h4>noun</h4>
+						<h4>Plural: ninjas</h4>
+						<a href="#" class="buttonLike" onclick="buttonLike(this)">13 likes</a>
+					</div>
+					<div clas="textoDer">
+						<p style="font-weight: bold;">A practitioner skilled in the 
+							<u style="margin: 0; color: #0000ff;">Japanese</u> art of 
+							<u style="margin: 0; color: #0000ff;">ninjutsu</u></p>
+					</div>
+			</div>
+		</div>
+
+		<!-- Aqui arranca el contenedor del texto lado derecho -->
+		<div class="columnaDer">
+			<h2>Dojonary is defined by you</h2>
+			<a href="#" class="buttonAddDefinition" onclick="removeButton(this)">Add Definition</a>
+		</div>
+	</main>
+
+</body>
+</html>
