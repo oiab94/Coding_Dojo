@@ -55,3 +55,4 @@
   - [Prueba de elementos JS](/Fundamentos-de-la-Web/JS/elementoThis/)
     - [Tarea 16: Evento onclick](/Fundamentos-de-la-Web/JS/eventoOnClick/)
   - [Evento Hover](/Fundamentos-de-la-Web/JS/eventoHover/)
+    - [Tarea 17: Vista previa de video](/Fundamentos-de-la-Web/JS/vistaPreviaDeVideo/)
