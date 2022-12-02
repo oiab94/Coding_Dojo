@@ -23,6 +23,7 @@
     - [Tarea 3: Formulario de registro](/Fundamentos-de-la-Web/HTML/Formularios/)
     - [Tarea 4: Contenido de portfolio](/Fundamentos-de-la-Web/HTML/portfolio_personal/)
 
+
 - ### Introducción CSS
   
   - [Configuración del proyecto](/Fundamentos-de-la-Web/CSS/configurarProyecto/)
@@ -47,5 +48,10 @@
     - [Tarea 13: Tarjeta de Usuario](/Fundamentos-de-la-Web/CSS/Position/tarjetaDeUsuario/)
     - [Tarea 14: Perfil de Usuario](/Fundamentos-de-la-Web/CSS/Position/paginaDePerfil/)
     - [Tarea 15: Biblioteca CSS](/Fundamentos-de-la-Web/CSS/bibliotecaCSS/)
+  
+
+- ### JS
+
   - [Prueba de elementos JS](/Fundamentos-de-la-Web/JS/elementoThis/)
     - [Tarea 16: Evento onclick](/Fundamentos-de-la-Web/JS/eventoOnClick/)
+  - [Evento Hover](/Fundamentos-de-la-Web/JS/eventoHover/)
