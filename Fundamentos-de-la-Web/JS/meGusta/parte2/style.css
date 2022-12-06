@@ -1,0 +1,91 @@
+*{
+	margin	: 0 20px;
+	padding	: 0;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/* Configuración de la barra principal */
+header{
+	background-color: #000000;
+	color						: #ffffff;
+	font-size				: xx-large;
+	padding					: 10px;
+}
+/*----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------*/
+/* Configuracion de la barra de navegación */
+nav{
+	margin-top			: 20px;
+	margin-bottom		: 20px;
+	display					: flex;
+	align-items			: center;
+	justify-content	: center;
+	font-size				: x-large;
+}
+/*----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------*/
+/* Configuración del contenido principal */
+main{
+	display				: flex;
+}
+
+/* Bloque de perfil del usuario */
+aside{
+	flex					: 1;
+	margin-left		: 0px;
+	border				: 5px solid #000000;
+	display				: flex;
+	flex-direction: column;
+	align-items		: center;
+	padding: 20px 0;
+}
+
+aside img{
+	height: 200px;
+}
+
+.nombre{
+	font-size: x-large;
+}
+
+/* Bloque de noticias */
+section{
+	flex				: 2;
+	margin-right: 0px;
+	padding: 0;
+}
+
+/*--- Configuracion de la caja de noticias ---*/
+.cajaNoticia {
+	display				: flex;
+	flex-direction: column;
+	border				: 5px solid #000000;
+	padding				: 40px 20px;
+	margin-bottom	: 20px;
+	margin-left		: 0;
+	margin-right	: 0;
+}
+
+/* Configuracion de los elementos dentro de la caja noticia */
+.userLikeButton{
+	display					: flex;
+	align-items			: center;
+	justify-content	: space-between;
+}
+
+/* Configuración del botón like */
+.botonLike {
+	font-weight			: 900;
+	font-size				: 1.5rem;
+	padding					: 6px;
+	background-color: #ffff99;
+	box-shadow			: 5px 5px #000000;
+}
+.botonLike:hover{
+	background-color: #80dfff;
+}

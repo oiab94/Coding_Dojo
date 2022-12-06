@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Me gusta diferentes</title>
+</head>
+<body>
+	
+	<!-- Barra Principal -->
+	<header>
+		<h1>Network</h1>
+	</header>
+
+	<!-- Barra de navegacion -->
+	<nav>
+		<h2>Your Feed</h2>
+	</nav>
+
+	<!-- Contenido Principal -->
+	<main>
+		<!-- Bloque de perfil de usuario -->
+		<aside>
+			<img src="img/user-circle.png" alt="Avatar de Usuario">
+			<a href="#">Add an avatar</a>
+			<span class="nombre">James Doe</span>
+		</aside>
+
+		<!-- Bloque de noticias -->
+		<section>
+			<div class="cajaNoticia">
+				<div class="userLikeButton">
+					<h2>Neil M</h2>
+					<span class="user"># like(s)</span>
+					<div class="botonLike" onclick="whatUser('neil_m')">Like</div>
+				</div>
+				<div class="text">
+					<p>Deserunt Lorem incididunt Lorem eiusmod sint do cillum aliquip 
+						 exercitation anim id.</p>
+				</div>
+			</div>
+
+			<div class="cajaNoticia">
+				<div class="userLikeButton">
+					<h2>Nichole K</h2>
+					<span class="user""># like(s)</span>
+					<div class="botonLike" onclick="whatUser('nichole_k')">Like</div>
+				</div>
+				<div class="text">
+					<p>Deserunt Lorem incididunt Lorem eiusmod sint do cillum aliquip 
+						 exercitation anim id.</p>
+				</div>
+			</div>
+
+			<div class="cajaNoticia">
+				<div class="userLikeButton">
+					<h2>Jim R</h2>
+					<span class="user""># like(s)</span>
+					<div class="botonLike" onclick="whatUser('jim_r')">Like</div>
+				</div>
+				<div class="text">
+					<p>Deserunt Lorem incididunt Lorem eiusmod sint do cillum aliquip 
+						 exercitation anim id.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>

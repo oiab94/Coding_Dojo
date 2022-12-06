@@ -1,0 +1,44 @@
+*{
+	font-size: large;
+}
+/*--- Aqui va la configuracion de la caja general ---*/
+section{
+	display			 : flex;
+	justify-items: center;
+	padding				: 50px;
+}
+
+
+/*--- Configuracion de la caja izquierda ---*/
+.cajaIzq {
+	display				: flex;
+	flex-direction: column;
+	border				: 5px solid #000000;
+	margin-right	: 20px;
+	padding-left	: 10px;
+	padding-right	: 10px;
+}
+
+/* Configuracion de los elementos dentro de la caja izquierda */
+.userLikeButton{
+	display					: flex;
+	align-items			: center;
+	justify-content	: space-between;
+}
+
+/* Configuración del botón like */
+.botonSalir {
+	font-weight			: 900;
+	font-size				: 1.5rem;
+	padding					: 6px;
+	background-color: #ffff99;
+	box-shadow			: 5px 5px #000000;
+}
+.botonSalir:hover{
+	background-color: #80dfff;
+}
+
+.text{
+	display: flex;
+	justify-content: center;
+}
