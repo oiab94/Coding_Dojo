@@ -1,0 +1,222 @@
+* {
+	margin			: 0px;
+	padding			: 0px;
+	font-family	: 'Rubik', sans-serif;
+}
+
+
+/* --------------------------------------------------------------- */
+/* Configuración general del nav */
+nav {
+	display					: flex;
+	justify-content	: space-around;
+	color						: #ffffff;
+	background-color: #000000;
+}
+
+/* Configuración del div navegaciónDePerfil */
+.navegacionDePerfil {
+	display					: flex;
+	padding-top			: 10px;
+	padding-bottom	: 10px ;
+	align-items			: center;
+	font-size				: x-large;
+}
+
+/* Configuración de los botones dentro del div navegacionDePerfil */
+.navegacionDePerfil div {
+	margin-right: 50px;
+}
+
+.profile {
+	font-weight	: 900;
+	font-size		: 3rem;
+}
+
+.myProfile {
+	font-weight: 900;
+}
+.profile:hover, 
+.home:hover, 
+.myProfile:hover,
+.findConnections:hover{
+	color: #80dfff;
+}
+
+/* --------------------------------------------------------------- */
+/* Configuración del div botonDeSalida */
+.salida {
+	display			: flex;
+	align-items	: center;
+}
+
+/* Configuración del botón signOut */
+.botonSalir {
+	font-weight			: 900;
+	font-size				: 1.5rem;
+	padding					: 6px;
+	background-color: #008cba;
+	box-shadow			: 3px 3px #f00000;
+}
+.botonSalir:hover{
+	background-color: #80dfff;
+}
+
+
+/* --------------------------------------------------------------- */
+/* Configuración del cuerpo */
+.cuerpo {
+	display					: flex;
+	justify-content	: center;
+	margin-top			: 5px;
+}
+
+/* Configuración de los elementos dentro del cuerpo */
+.lateralIzq {
+	flex: 0.5;
+}
+
+.contenidoPrincipal {
+	flex					: 2;
+	display				: flex;
+	flex-direction: column;
+}
+
+.contenidoSecundario {
+	flex: 1;
+}
+
+.lateralDer {
+	flex: 0.5;
+}
+/* --------------------------------------------------------------- */
+
+/* Configuración de los elementos del contenido principal */
+.tarjetaUsuario {
+	flex	: 1;
+	border: 3px solid #808080;
+	margin: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.cabeceraPerfil {
+	background-color: #008cba;
+	padding: 40px;
+}
+.datosPerfil {
+	margin-top	: 30px;
+	font-weight	: 800;
+}
+.datosPerfil .nombre {
+	font-size: 50px;
+	font-weight: 550;
+}
+.imgPerfil {
+	position	: absolute;
+	margin		: 30px;
+	margin-top: 45px;
+	width			: 70px;
+	height		: 70px;
+}
+.imgMapa {
+	margin			: 0px;
+	margin-right: 10px;
+	width				: 20px;
+	height			: 20px;
+}
+.imgTuerca {
+	margin			: 0px;
+	margin-right: 10px;
+	width				: 20px;
+	height			: 20px;
+}
+
+
+/* Configuración de los elementos de la tarjetaEducación */
+.tarjetaEducacion {
+	flex					: 1;
+	border				: 3px solid #808080;
+	margin				: 10px 20px;
+	display				: flex;
+	flex-direction: column;
+	height				: 300px;
+}
+.cabeceraEducacion {
+	background-color: #4d4d4d;
+	padding					: 10px;
+	color						: #ffffff;
+}
+.datosEducacion{
+	padding					: 10px;
+	background-color: #ffffff;
+}
+/* --------------------------------------------------------------- */
+
+/* Configuración de los elementos del contenido secundario */
+.tarjetaConnectionRequest {
+	flex: 1;
+	border: 3px solid #808080;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.cabeceraConnectionRequest {
+	background-color: #333333;
+	padding: 10px;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+}
+.cantidadConnectionRequest {
+	background-color: #b3b3b3;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 50%;
+	padding: 5px 5px;
+	text-align: center;
+	margin-right: 10px;
+}
+.datosConnectionRequest {
+	padding: 20px;
+}
+.imgUser {
+	width				: 30px;
+	height			: 30px;
+	margin-right: 20px;
+}
+.imgAceptar {
+	width				: 30px;
+	height			: 30px;
+	margin-left	: 50px;
+	margin-right: 10px;
+}
+.imgClose {
+	width	: 30px;
+	height: 30px;
+}
+
+
+.tarjetaYourConnections{
+	flex					: 1;
+	border				: 3px solid #808080;
+	display				: flex;
+	flex-direction: column;
+}
+.cabeceraYourConnections {
+	background-color: #333333;
+	padding					: 10px;
+	color						: #ffffff;
+	display					: flex;
+}
+.cantidadYourConnections {
+	background-color: #b3b3b3;
+	color						: #ffffff;
+	font-weight			: bold;
+	border-radius		: 50%;
+	padding					: 5px 5px;
+	text-align			: center;
+	margin-right		: 10px;
+}
+.datosYourConnection {
+	padding: 20px;
+}
