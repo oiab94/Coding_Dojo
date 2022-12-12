@@ -1,0 +1,123 @@
+* {
+	margin			: 0;
+	padding			: 0;
+	font-family	: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Configuración del HEADER */
+header {
+	background-color: #6cc3f9;
+	padding					: 10px 200px;
+	display					: flex;
+	justify-content	: space-between;
+	align-items			: center;
+}
+
+header h1{
+	color				: #ffffff;
+ 	font-size		: 60px;
+	font-weight	: bolder;
+}
+
+
+/* Configuración de los elemetos del NAV */
+nav{
+	display			: flex;
+	align-items	: center;
+}
+.elementoNav{
+	color			: #ffffff;
+	font-size	: 35px;
+	padding		: 20px 40px;
+}
+
+
+/* Configuración de los elementos del MAIN */
+main{
+	padding: 10px 200px;
+}
+
+main .tituloSuperior{
+	border-bottom: 3px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20px;
+}
+main h2{
+	font-size: 45px;
+}
+main span{
+	font-size: 30px;
+}
+main select {
+	background-color: #fff;
+	border: 3px solid black;
+	font-size: 25px;
+}
+
+section {
+	margin-top: 20px;
+}
+section article{
+	display								: grid;
+	grid-template-columns	: auto auto auto auto;
+	gap										: 20px;
+}
+
+article div {
+	padding					: 10px;
+	display					: flex;
+	align-items			: center;
+	flex-direction	: column;
+	background-color: #d9d9d9;
+	font-weight			: bold;
+}
+
+article div img{
+	margin-top		: 20px;
+	margin-bottom	: 20px;
+	border-radius	: 50%;
+}
+
+.temperature {
+	flex-direction: row;
+}
+
+.maxima{
+	color: #ff3333;
+	margin-right: 20px;
+}
+.minima{
+	color: #4d4dff;
+	margin-left: 20px;
+}
+
+
+/* Configuración del FOOTER */
+footer {
+	border	: 2px solid black;
+	margin	: 10px 200px;
+	display	: flex;
+	position: fixed;
+	bottom	: 0;
+}
+
+footer img{
+	margin: 20px;
+}
+
+footer div {
+	font-size: 25px;
+}
+
+/* Configuración del botón like */
+footer .botonIAccept {
+	font-weight			: 900;
+	background-color: #6cc3f9;
+	margin					: 20px 40px;
+	box-shadow			: 5px 5px #000000;
+}
+footer .botonIAccept:hover{
+	background-color: #80dfff;
+}

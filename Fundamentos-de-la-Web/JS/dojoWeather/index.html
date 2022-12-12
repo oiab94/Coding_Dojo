@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Dojo Weather</title>
+</head>
+<body>
+	
+	<!-- Aqui va el el HEADER y la barra de NAAVEGACION -->
+	<header>
+		<h1>Dojo Weather</h1>
+		<nav>
+			<h2 class="elementoNav" onclick="whenPressCity()">Burbank</h2>
+			<h2 class="elementoNav" onclick="whenPressCity()">Chicago</h2>
+			<h2 class="elementoNav" onclick="whenPressCity()">Dallas</h2>
+		</nav>
+	</header>
+
+	<main>
+		<div class="tituloSuperior">
+			<h2>San Jose</h2>
+			<div>
+				<span>show temperature</span>
+				<select id="temperature">
+					<option value="celsius" onclick="convertTemperature()">°C</option>
+					<option value="farenheit" onclick="convertTemperature()">°F</option>
+				</select>
+			</div>
+		</div>
+		<section>
+			<article>
+				<div>
+					<h2>Today</h2>
+					<img src="img/some_rain.png" alt="raing">
+					<span>some rain</span>
+					<div class="temperature">
+						<span class="maxima" id="today_max">24°</span>
+						<span class="minima" id="today_min">18°</span>
+					</div>
+				</div>
+				<div>
+					<h2>Tomorrow</h2>
+					<img src="img/some_sun.png" alt="sun">
+					<span>some sun</span>
+					<div class="temperature">
+						<span class="maxima" id="tomorrow_max">27°</span>
+						<span class="minima" id="tomorrow_min">19°</span>
+					</div>
+				</div>
+				<div>
+					<h2>Friday</h2>
+					<img src="img/some_clouds.png" alt="clouds">
+					<span>some clouds</span>
+					<div class="temperature">
+						<span class="maxima" id="friday_max">21°</span>
+						<span class="minima" id="friday_min">16°</span>
+					</div>
+				</div>
+				<div>
+					<h2>Saturday</h2>
+					<img src="img/some_sun.png" alt="sun">
+					<span>some sun</span>
+					<div class="temperature">
+						<span class="maxima saturday" id="saturday_max">26°</span>
+						<span class="minima saturday" id="saturday_min">21°</span>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<footer id="cookies">
+		<img src="img/cookie.png" alt="cookies">
+		<div>
+			<h2>Stop! Cookie Time</h2>
+			<p>We use cookies (sadly not the editables ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span>Read More...</span></p>
+		</div>
+		<div class="botonIAccept" onclick="removeCookies()">
+			<span>I Accept</span>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
