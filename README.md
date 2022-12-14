@@ -60,4 +60,5 @@
     - [Tarea 18: Me Gusta](/Fundamentos-de-la-Web/JS/meGusta/)
     - [Tarea 19: Hacer Conexiones](/Fundamentos-de-la-Web/JS/hacerConexiones/)
     - [Tarea 20: Tiempo Dojo](/Fundamentos-de-la-Web/JS/dojoWeather/)
-    - [Tarea 21: FizzBuzz](/Fundamentos-de-la-Web/JS/languageFundamentals/)
+    - [Tarea 21: FizzBuzz](/Fundamentos-de-la-Web/JS/languageFundamentals/fizzBuzz.js)
+    - [Tarea 22: Desafios de bucles](/Fundamentos-de-la-Web/JS/languageFundamentals/desafioDeBucles.js)
