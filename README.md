@@ -63,3 +63,4 @@
     - [Tarea 21: FizzBuzz](/Fundamentos-de-la-Web/JS/languageFundamentals/fizzBuzz.js)
     - [Tarea 22: Desafios de bucles](/Fundamentos-de-la-Web/JS/languageFundamentals/desafioDeBucles.js)
   - [Consultas a API](/Fundamentos-de-la-Web/JS/API/)
+  - [Diseño Responsive](/Fundamentos-de-la-Web/CSS/responsiveDesign/)
