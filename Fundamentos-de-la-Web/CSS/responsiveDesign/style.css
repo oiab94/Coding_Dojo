@@ -1,0 +1,46 @@
+* {
+	padding		: 0;
+	border		: 0;
+	/* box-sizing includes the padding and border when calculating width */
+	box-sizing: border-box;
+}
+
+button {
+	background-color: purple;
+}
+
+.col {
+	/* set the universal stylings for all columns, regardles of screen size */
+	display				: inline-block;
+	vertical-align: top;
+	padding				: 20px;
+}
+
+.row {
+	padding: 10px;
+	border: 3px solid blue;
+}
+
+@media screen and (max-width: 480px) {
+	.sm-4 {
+		width: 100%;
+	}
+	.sm-0 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.med-2 {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.lg-1 {
+		width: 25%;
+	}
+	.lg-3 {
+		width: 75%;
+	}
+}
