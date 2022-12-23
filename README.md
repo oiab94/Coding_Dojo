@@ -69,3 +69,4 @@
 - ### MERN
   - [Elevación](/MERN/asignacion/)
   - [Desestruturación](/MERN/desestructuracion/)
+  - [Residuo/Propagación](/MERN/residuo-Propagacion/)
