@@ -71,3 +71,4 @@
   - [Desestruturación](/MERN/desestructuracion/)
   - [Residuo/Propagación](/MERN/residuo-Propagacion/)
   - [Funciones Flecha](/MERN/funcionesFlecha/)
+    - [Tarea 23: Convertir a Flecha ](MERN/convertirAFlecha/)
