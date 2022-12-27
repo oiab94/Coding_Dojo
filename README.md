@@ -72,3 +72,4 @@
   - [Residuo/Propagación](/MERN/residuo-Propagacion/)
   - [Funciones Flecha](/MERN/funcionesFlecha/)
     - [Tarea 23: Convertir a Flecha ](MERN/convertirAFlecha/)
+    - [Tarea 24: Cuanto tiempo tomo](MERN/cuantoTiempoTomo/)
