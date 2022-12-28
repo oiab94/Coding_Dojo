@@ -75,3 +75,4 @@
     - [Tarea 24: Cuanto tiempo tomo](MERN/cuantoTiempoTomo/)
     - [Tarea 25: Ninja](MERN/OOP/ninja/)
     - [Tarea 26: Super Ninja](MERN/OOP/superNinja/)
+    - [Tarea 27: Duelo](MERN/OOP/juegoDeCartas/)
