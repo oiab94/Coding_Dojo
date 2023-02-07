@@ -73,6 +73,7 @@
   - [Funciones Flecha](/MERN/funcionesFlecha/)
     - [Tarea 23: Convertir a Flecha ](MERN/convertirAFlecha/)
     - [Tarea 24: Cuanto tiempo tomo](MERN/cuantoTiempoTomo/)
+    - [Tarea: Quicksort](/MERN//quickSort/)
     - [Tarea 25: Ninja](MERN/OOP/ninja/)
     - [Tarea 26: Super Ninja](MERN/OOP/superNinja/)
     - [Tarea 27: Duelo](MERN/OOP/juegoDeCartas/)
